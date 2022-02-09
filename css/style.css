@@ -1,0 +1,29 @@
+.column {
+    float: left;
+    width: 22%;
+    padding: 10px;
+    height: 300px;   
+}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.one {
+    background-color:rgb(197, 26, 26);
+}
+
+.two {
+    background-color:rgb(77, 179, 46); 
+}
+
+.three {
+    background-color:rgb(61, 27, 185);
+}
+
+.four {
+    background-color:rgb(216, 219, 25); 
+}
